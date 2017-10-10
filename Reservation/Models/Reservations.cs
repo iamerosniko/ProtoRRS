@@ -16,5 +16,6 @@ namespace Reservation.Models
         public int Players { get; set; }
         public Decimal Amount { get; set; }
         public double TimeElapse { get; set; }
+        public string UserName { get; set; }
     }
 }

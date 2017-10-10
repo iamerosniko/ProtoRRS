@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="ReservationContext-Web.config Connection String" description="ReservationContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\v11.0; Initial Catalog=ReservationContext-20171010154714; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|ReservationContext-20171010154714.mdf" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\alverer\\Documents\\Visual\ Studio\ 2013\\Projects\\Reservation\\Reservation\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ReservationContext']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Eros\ Alvarez\\Documents\\GitHub\\ProtoRRS\\Reservation\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ReservationContext']/@connectionString" />
   </parameter>
   <parameter name="ReservationContext_DatabasePublish-Web.config Connection String" description="ReservationContext_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="ReservationContext_DatabasePublish.ConnetionString" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\alverer\\Documents\\Visual\ Studio\ 2013\\Projects\\Reservation\\Reservation\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ReservationContext_DatabasePublish']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Eros\ Alvarez\\Documents\\GitHub\\ProtoRRS\\Reservation\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ReservationContext_DatabasePublish']/@connectionString" />
   </parameter>
 </parameters>
