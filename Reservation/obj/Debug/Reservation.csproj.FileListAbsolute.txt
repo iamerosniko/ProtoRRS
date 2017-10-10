@@ -48,3 +48,5 @@ C:\Users\alverer\documents\visual studio 2013\Projects\Reservation\Reservation\o
 C:\Users\alverer\documents\visual studio 2013\Projects\Reservation\Reservation\obj\Debug\Reservation.pdb
 C:\Users\alverer\Documents\Visual Studio 2013\Projects\Reservation\Reservation\obj\Debug\Reservation.Migrations.init.resources
 C:\Users\alverer\Documents\Visual Studio 2013\Projects\Reservation\Reservation\obj\Debug\Reservation.csproj.GenerateResource.Cache
+C:\Users\alverer\documents\visual studio 2013\Projects\Reservation\Reservation\obj\Debug\Reservation.Migrations.m001.resources
+C:\Users\alverer\documents\visual studio 2013\Projects\Reservation\Reservation\obj\Debug\Reservation.Migrations.m002.resources

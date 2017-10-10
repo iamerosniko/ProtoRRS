@@ -48,3 +48,5 @@ C:\Users\alverer\Documents\Visual Studio 2013\Projects\Reservation\Reservation\b
 C:\Users\alverer\Documents\Visual Studio 2013\Projects\Reservation\Reservation\bin\EntityFramework.SqlServer.xml
 C:\Users\alverer\Documents\Visual Studio 2013\Projects\Reservation\Reservation\obj\Release\Reservation.Migrations.init.resources
 C:\Users\alverer\Documents\Visual Studio 2013\Projects\Reservation\Reservation\obj\Release\Reservation.csproj.GenerateResource.Cache
+C:\Users\alverer\documents\visual studio 2013\Projects\Reservation\Reservation\obj\Release\Reservation.Migrations.m001.resources
+C:\Users\alverer\documents\visual studio 2013\Projects\Reservation\Reservation\obj\Release\Reservation.Migrations.m002.resources

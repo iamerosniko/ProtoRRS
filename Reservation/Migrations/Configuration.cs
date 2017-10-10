@@ -1,5 +1,6 @@
 namespace Reservation.Migrations
 {
+    using Reservation.Models;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
@@ -26,6 +27,17 @@ namespace Reservation.Migrations
             //      new Person { FullName = "Rowan Miller" }
             //    );
             //
+                context.Reservations.AddOrUpdate(
+                    p => p.ReservationID, new Reservations
+                    {
+                        ReservationID=1,
+                        RoomName="",
+                        Players=2,
+                        Amount=(decimal)2.10,
+                        TimeElapse=(double)3.10,
+                        TeamName="sample"
+                    }
+                );
         }
     }
 }
