@@ -68,7 +68,7 @@ namespace Reservation.Controllers
                 }
             }
 
-            return StatusCode(HttpStatusCode.NoContent);
+            return Ok(reservations);
         }
 
         // POST: api/Reservations
