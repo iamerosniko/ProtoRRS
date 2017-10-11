@@ -136,3 +136,4 @@ C:\Users\alverer\Documents\GitHub\ProtoRRS\Reservation\obj\Release\Reservation.M
 C:\Users\alverer\Documents\GitHub\ProtoRRS\Reservation\obj\Release\Reservation.csproj.GenerateResource.Cache
 C:\Users\alverer\Documents\GitHub\ProtoRRS\Reservation\obj\Release\Reservation.dll
 C:\Users\alverer\Documents\GitHub\ProtoRRS\Reservation\obj\Release\Reservation.pdb
+C:\Users\alverer\Documents\GitHub\ProtoRRS\Reservation\obj\Release\Reservation.Migrations.m004.resources

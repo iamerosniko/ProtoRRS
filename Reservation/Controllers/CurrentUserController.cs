@@ -18,17 +18,12 @@ namespace Reservation.Controllers
 
             string currentDomainUser;
             //Intranet Deployment
-            currentDomainUser = Environment.UserName;
+            //currentDomainUser = Environment.UserName;
             //
             //Azure Deployment 
-            //currentDomainUser = HttpContext.Current.User.Identity.Name.ToString();
-            //this.logUser =
-            //        currentDomainUser == null ||
-            //        currentDomainUser.Trim().Equals("") ? "" :
-            //        currentDomainUser.Substring(0, currentDomainUser.IndexOf('@'));
-            //FOR AZURE ONLY
-            //string currentDomainUser = HttpContext.Current.User.Identity.Name.ToString();
-            //currentDomainUser = currentDomainUser==null||currentDomainUser.Trim().Equals("") ? "" : currentDomainUser.Substring(0, currentDomainUser.IndexOf('@'));
+            currentDomainUser = HttpContext.Current.User.Identity.Name.ToString();
+           
+            currentDomainUser = currentDomainUser==null||currentDomainUser.Trim().Equals("") ? "" : currentDomainUser.Substring(0, currentDomainUser.IndexOf('@'));
 
             CurrentUser cu = new CurrentUser
             {
