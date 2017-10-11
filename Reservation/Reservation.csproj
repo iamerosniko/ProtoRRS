@@ -156,6 +156,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\CurrentUserController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ReservationsController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
@@ -178,7 +179,12 @@
     <Compile Include="Migrations\201710102301594_m003.Designer.cs">
       <DependentUpon>201710102301594_m003.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201710111251311_m004.cs" />
+    <Compile Include="Migrations\201710111251311_m004.Designer.cs">
+      <DependentUpon>201710111251311_m004.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\CurrentUser.cs" />
     <Compile Include="Models\ReservationContext.cs" />
     <Compile Include="Models\Reservations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -219,6 +225,7 @@
     </Content>
     <None Include="Properties\PublishProfiles\ProtoReservation - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\ProtoReservation - Web Deploy %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\ProtoReservation - Web Deploy %283%29.pubxml" />
     <None Include="Properties\PublishProfiles\ProtoReservation - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -255,6 +262,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201710102301594_m003.resx">
       <DependentUpon>201710102301594_m003.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710111251311_m004.resx">
+      <DependentUpon>201710111251311_m004.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
