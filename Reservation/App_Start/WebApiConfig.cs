@@ -19,7 +19,7 @@ namespace Reservation
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
-                routeTemplate: "api/{controller}/{id}",
+                routeTemplate: "ESDALVERER/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
         }
